@@ -24,6 +24,8 @@ def reset_timer():
     timer_label.config(text=timer_label_text, foreground=GREEN)
     check_label.config(text="")
     start_button["state"] = "normal"
+    global reps
+    reps = 0
 
 
 
